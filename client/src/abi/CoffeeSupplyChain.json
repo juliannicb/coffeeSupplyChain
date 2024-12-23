@@ -1,0 +1,30 @@
+{
+    "contractName": "CoffeeSupplyChain",
+    "abi": [
+      {
+        "inputs": [
+          {
+            "internalType": "string",
+            "name": "origin",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "description",
+            "type": "string"
+          }
+        ],
+        "name": "addCoffee",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      ...
+    ],
+    "networks": {
+      "5777": {
+        "address": "0xYourContractAddressHere"
+      }
+    }
+  }
+  
